@@ -1,0 +1,168 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: white;
+  background-color: #fff;
+/*   background-color: #eee; */
+}
+
+.site-header{
+
+}
+
+#main-grid{
+  height: 100%;
+      /* Background styles */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/presse_large.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#title-C{
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 20px;
+}
+
+#title-T{
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 20px;
+}
+
+#title-M{
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* flex site for bottom sticky footer */
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+
+#footer-logo {
+	height: 30px;
+}
+
+#header-button {
+	margin:5px;
+}
+
+#fakebot {
+	/*height: 600px; */
+}
+
+.text-align{
+  text-align: center;
+}
+
+
+#title-box{
+  min-height: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#fb-grid{
+  max-width: 400px;
+  text-align: center;
+}
+
+.pointer{
+  font-size: 1.5rem;
+  min-height: 20px;
+  min-width: 200px;
+  max-width: 250px;
+  /*
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center; */
+}
+
+#adblock{
+  color: #aaa;
+  padding: 10px;
+}
+
+
+#white-space{
+  padding: 50px !important;
+}
+
+#features{
+  margin: 15px;
+  padding-top: 150px;
+  max-width: 900px;
+}
+
+.videoInsert {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.social {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#publisher {
+  margin: 15px; 
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit; 
+}
+
+a:hover {
+  color: #00adee;
+}
+
+.footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+h2, h3 {
+  color: white !important;
+}
+
+
+.header{
+  color: white !important;
+}
+
+#alternate-button{
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 50px;
+}
+
+._1krz{
+  color: white !important;
+}
+
+._3sxz{
+  color: white !important;
+}
