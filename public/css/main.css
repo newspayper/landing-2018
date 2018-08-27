@@ -6,6 +6,8 @@ body {
   height: 100%;
   color: white;
   background-color: #fff;
+  padding: 0;
+  margin: 0;
 /*   background-color: #eee; */
 }
 
@@ -16,32 +18,25 @@ body {
 #main-grid{
   height: 100%;
       /* Background styles */
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/presse_large.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(../img/presse_large.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-#title-C{
-  font-size: 3.5em;
-  text-align: center;
-  padding-top: 140px;
-  padding-bottom: 20px;
-}
-
-#title-T{
-  font-size: 3.5em;
-  text-align: center;
-  padding-top: 140px;
-  padding-bottom: 20px;
-}
-
-#title-M{
-  font-size: 2.5em;
-  text-align: center;
+#title{
   padding-top: 50px;
-  padding-bottom: 20px;
+  font-size: 3em;
+  text-align: center;
+}
+
+#social{
+  padding-top: 100px;
+}
+
+#title-grid{
+  background-color: #00adee;
 }
 
 /* flex site for bottom sticky footer */
@@ -73,37 +68,6 @@ body {
   text-align: center;
 }
 
-
-#title-box{
-  min-height: 20px;
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-#fb-grid{
-  max-width: 400px;
-  text-align: center;
-}
-
-.pointer{
-  font-size: 1.5rem;
-  min-height: 20px;
-  min-width: 200px;
-  max-width: 250px;
-  /*
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center; */
-}
-
-#adblock{
-  color: #aaa;
-  padding: 10px;
-}
-
-
 #white-space{
   padding: 50px !important;
 }
@@ -134,7 +98,7 @@ a {
 }
 
 a:hover {
-  color: #00adee;
+  color: black;
 }
 
 .footer{
@@ -159,10 +123,6 @@ h2, h3 {
   max-height: 50px;
 }
 
-._1krz{
-  color: white !important;
-}
-
-._3sxz{
-  color: white !important;
+#mce-EMAIL{
+  color: #888;
 }
