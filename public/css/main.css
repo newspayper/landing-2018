@@ -25,9 +25,21 @@ body {
     background-attachment: fixed;
 }
 
-#title{
+#title-C{
   padding-top: 50px;
   font-size: 3em;
+  text-align: center;
+}
+
+#title-T{
+  padding-top: 50px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#title-M{
+  padding-top: 50px;
+  font-size: 2em;
   text-align: center;
 }
 
